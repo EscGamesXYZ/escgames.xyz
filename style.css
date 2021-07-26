@@ -1,0 +1,30 @@
+:root {
+    --color-primary: #d77bba;
+    --color-primary-accent: #d95763;
+    --color-secondary: #76428a;
+}
+
+body {
+    background-color: var(--color-secondary);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.text {
+    color: var(--color-primary);
+}
+
+.discord, .discord:visited, .discord:hover, .discord:active {
+    text-decoration: none;
+    color: var(--color-primary-accent);
+}
